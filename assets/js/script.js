@@ -86,6 +86,7 @@ function winRecord() {
   winCount++
   win.innerHTML = winCount
   localStorage.setItem("winCount",winCount)
+  wordBlank.innerHTML = "You Win!"
 }
 
 function lossRecord() {
@@ -93,6 +94,7 @@ function lossRecord() {
   lossCount++
   lose.innerHTML = lossCount
   localStorage.setItem("lossCount",lossCount)
+  wordBlank.innerHTML = "You Lose."
 }
 
 function countdown() {
